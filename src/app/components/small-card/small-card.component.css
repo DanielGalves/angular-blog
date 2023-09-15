@@ -1,13 +1,11 @@
 .content__small-card{
     width: 85%;
-    border: solid 1px yellow;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
 }
 .content__small-card:hover{
     width: 85%;
-    border: solid 1px yellow;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
