@@ -1,0 +1,37 @@
+.container__small-card{
+    width: 100%;
+    border: solid 1px yellow;
+    margin-bottom: 10px;
+}
+.lista__small-card{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.item__small-card{
+    width: 33%;
+}
+.item__small-card:hover{
+    width: 30%;
+    box-shadow: 8px 6px 4px 0px gray
+
+}
+.imagem__small-card{
+    width: 100%;
+}
+.imagem__small-card > img{
+    width: 98%;
+    margin: 2px;
+}
+.conteudo__small-card{
+    font-size: 70%;
+    margin-top: 5px;   
+}
+.conteudo__small-card > h1 {
+    color: gray;
+}
+.conteudo__small-card > p{
+    color:  grey;
+    margin-top: 3px;
+}
+
