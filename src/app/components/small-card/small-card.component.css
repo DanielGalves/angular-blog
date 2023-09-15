@@ -1,21 +1,20 @@
-.container__small-card{
-    width: 100%;
+.content__small-card{
+    width: 85%;
     border: solid 1px yellow;
     margin-bottom: 10px;
-}
-.lista__small-card{
-    list-style: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
-.item__small-card{
-    width: 33%;
+.content__small-card:hover{
+    width: 85%;
+    border: solid 1px yellow;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 6px 4px 0px gray
 }
-.item__small-card:hover{
-    width: 30%;
-    box-shadow: 8px 6px 4px 0px gray
 
-}
 .imagem__small-card{
     width: 100%;
 }

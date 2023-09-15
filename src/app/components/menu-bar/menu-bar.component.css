@@ -1,0 +1,15 @@
+.content__menu-bar{
+   
+}
+
+.list__menu-bar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.list__menu-bar > li > a{
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+ }
