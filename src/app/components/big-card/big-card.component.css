@@ -1,0 +1,33 @@
+.content__big-card{
+    margin: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.content__big-card:hover{
+    margin: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 8px 6px 4px 0px gray
+}
+
+.imagem__big-card{
+    width: 49.5%; 
+
+   }
+
+.imagem__big-card img{
+    width: 100%;
+}
+   
+
+.texto__big-card{
+    width: 49.5%;
+    padding: 15px;  
+}
+
+.texto__big-card p{
+    margin-top: 15px;
+    color: #403f41;
+}
