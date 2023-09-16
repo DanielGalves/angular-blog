@@ -6,6 +6,7 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-items: end;
 }
 
 .list__menu-bar > li > a{
