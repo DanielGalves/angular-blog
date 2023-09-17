@@ -1,9 +1,13 @@
 <div class="content__big-card">
     <div class="imagem__big-card">
-        <img src="{{photoCover}}" alt="">
+        <a [routerLink]="['contents',id]">
+            <img src="{{photoCover}}" alt="">
+        </a>
     </div>    
     <div class="texto__big-card">
-        <h1 class="title__big-card">{{titleBigCard}}</h1>
-        <p class="decription__big-card">{{decriptionBigCard}}</p>
+        <a [routerLink]="['contents',id]">
+            <h1 class="title__big-card">{{titleBigCard}}</h1>
+            <p class="decription__big-card">{{decriptionBigCard}}</p>
+        </a>
     </div>
 </div>
