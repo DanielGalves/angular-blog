@@ -6,7 +6,8 @@ import { ContentsComponent } from './pages/contents/contents.component';
 const routes: Routes = [
   {
     path:'',
-    component:HomeComponent
+    component:HomeComponent,
+    pathMatch:'full'
   },
   {
     path:'contents/:id',
