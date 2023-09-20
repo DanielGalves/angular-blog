@@ -1,5 +1,10 @@
-*{
-    justify-items: center;
-    display: grid;
-    background-color: grey;
+*{  
+    width: 95%;        
+}
+header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    margin: 0;
+    height: 40px;    
 }

@@ -1,11 +1,12 @@
 .content__menu-bar{
-   
+    display: flex;
+   justify-content: end ;   
 }
 
 .list__menu-bar{
     list-style: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
 }
 
 .list__menu-bar > li > a{
